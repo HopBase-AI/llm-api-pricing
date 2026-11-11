@@ -1,5 +1,7 @@
 # LLM API pricing: official list prices and HopBase standard prices
 
+**Data as of:** official list prices 2026-11-10 · HopBase standard prices effective 2026-10-31 · **License:** data CC BY 4.0, scripts MIT · [How to cite](CITATION.cff)
+
 A machine-readable price sheet for 140+ text, image, video and speech models: the official list price of each model, and, for a set of popular models, the standard price on [HopBase](https://hop-base.com).
 
 Maintained by HopBase, an AI gateway that serves these models through one base URL. Everything here is in USD.
@@ -17,6 +19,22 @@ Maintained by HopBase, an AI gateway that serves these models through one base U
 | [`data/official-prices.csv`](data/official-prices.csv) | The official prices, one row per token price or billing bucket |
 | [`data/hopbase-standard-prices.csv`](data/hopbase-standard-prices.csv) | The standard prices next to the official list price |
 | [`scripts/build.py`](scripts/build.py) | Rebuilds the CSV files and the tables below from the two JSON files |
+
+## Use the data
+
+The JSON and CSV files are plain files you can fetch directly:
+
+```bash
+curl -s https://raw.githubusercontent.com/HopBase-AI/llm-api-pricing/main/data/official-prices.json | jq '.models[] | select(.id == "claude-sonnet-5-5")'
+```
+
+```python
+import json, urllib.request
+url = "https://raw.githubusercontent.com/HopBase-AI/llm-api-pricing/main/data/official-prices.json"
+models = json.load(urllib.request.urlopen(url))["models"]
+```
+
+To cite the dataset, use [`CITATION.cff`](CITATION.cff) (GitHub shows a "Cite this repository" button) and link back to https://hop-base.com.
 
 ## Reading the numbers
 

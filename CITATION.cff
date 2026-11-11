@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "LLM API pricing: official list prices and HopBase standard prices"
+type: dataset
+authors:
+  - name: "HopBase"
+    website: "https://hop-base.com"
+repository-code: "https://github.com/HopBase-AI/llm-api-pricing"
+url: "https://github.com/HopBase-AI/llm-api-pricing"
+abstract: "Machine-readable official list prices (USD) for 140+ text, image and video models, with HopBase standard prices for a set of popular models. JSON and CSV."
+keywords:
+  - llm
+  - pricing
+  - ai-api
+  - dataset
+license: CC-BY-4.0
+date-released: "2026-11-10"
