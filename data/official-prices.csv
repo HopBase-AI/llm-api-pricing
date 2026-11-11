@@ -1,0 +1,292 @@
+id,name,family,category,unit,bucket,input,cached_input,output,long_context_threshold,long_context_input_multiplier,long_context_output_multiplier,price
+happyhorse-1.1-i2v,HappyHorse 1.1 Image-to-Video (First Frame),Alibaba Wan / HappyHorse,video,second,1080p,,,,,,,0.17647059
+happyhorse-1.1-i2v,HappyHorse 1.1 Image-to-Video (First Frame),Alibaba Wan / HappyHorse,video,second,480p,,,,,,,0.06617647
+happyhorse-1.1-i2v,HappyHorse 1.1 Image-to-Video (First Frame),Alibaba Wan / HappyHorse,video,second,720p,,,,,,,0.13235294
+happyhorse-1.1-r2v,HappyHorse 1.1 Reference-to-Video,Alibaba Wan / HappyHorse,video,second,1080p,,,,,,,0.17647059
+happyhorse-1.1-r2v,HappyHorse 1.1 Reference-to-Video,Alibaba Wan / HappyHorse,video,second,480p,,,,,,,0.06617647
+happyhorse-1.1-r2v,HappyHorse 1.1 Reference-to-Video,Alibaba Wan / HappyHorse,video,second,720p,,,,,,,0.13235294
+happyhorse-1.1-t2v,HappyHorse 1.1 Text-to-Video,Alibaba Wan / HappyHorse,video,second,1080p,,,,,,,0.17647059
+happyhorse-1.1-t2v,HappyHorse 1.1 Text-to-Video,Alibaba Wan / HappyHorse,video,second,480p,,,,,,,0.06617647
+happyhorse-1.1-t2v,HappyHorse 1.1 Text-to-Video,Alibaba Wan / HappyHorse,video,second,720p,,,,,,,0.13235294
+wan3.0-video,Wan 3.0 Omni Reference Video,Alibaba Wan / HappyHorse,video,second,1080p,,,,,,,0.17647059
+wan3.0-video,Wan 3.0 Omni Reference Video,Alibaba Wan / HappyHorse,video,second,480p,,,,,,,0.04411765
+wan3.0-video,Wan 3.0 Omni Reference Video,Alibaba Wan / HappyHorse,video,second,720p,,,,,,,0.08823529
+claude-fable-5,Claude Fable 5,Anthropic Claude,chat,1M tokens,,10,1,50,,,,
+claude-fable-5-1,Claude Fable 5.1,Anthropic Claude,chat,1M tokens,,10,0.25,50,,,,
+claude-fable-5-2,Claude Fable 5.2,Anthropic Claude,chat,1M tokens,,8,0.2,40,,,,
+claude-haiku-4-5-20251001,Claude Haiku 4.5,Anthropic Claude,chat,1M tokens,,1,0.1,5,,,,
+claude-haiku-5-5,Claude Haiku 5.5,Anthropic Claude,chat,1M tokens,,0.1,0.01,0.5,,,,
+claude-opus-4-6,Claude Opus 4.6,Anthropic Claude,chat,1M tokens,,5,0.5,25,,,,
+claude-opus-4-7,Claude Opus 4.7,Anthropic Claude,chat,1M tokens,,5,0.5,25,,,,
+claude-opus-4-8,Claude Opus 4.8,Anthropic Claude,chat,1M tokens,,5,0.5,25,,,,
+claude-opus-5,Claude Opus 5,Anthropic Claude,chat,1M tokens,,5,0.5,25,,,,
+claude-opus-5-5,Claude Opus 5.5,Anthropic Claude,chat,1M tokens,,4,0.2,20,,,,
+claude-sonnet-4-6,Claude Sonnet 4.6,Anthropic Claude,chat,1M tokens,,3,0.3,15,,,,
+claude-sonnet-5,Claude Sonnet 5,Anthropic Claude,chat,1M tokens,,2,0.2,10,,,,
+claude-sonnet-5-5,Claude Sonnet 5.5,Anthropic Claude,chat,1M tokens,,2,0.1,10,,,,
+gemini-2.5-flash,Gemini 2.5 Flash,Google Gemini,chat,1M tokens,,0.3,0.03,2.5,,,,
+gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,Google Gemini,chat,1M tokens,,0.1,0.01,0.4,,,,
+gemini-2.5-pro,Gemini 2.5 Pro,Google Gemini,chat,1M tokens,,1.25,0.125,10,,,,
+gemini-3-flash-preview,Gemini 3 Flash Preview,Google Gemini,chat,1M tokens,,0.5,0.05,3,,,,
+gemini-3-pro-image,Gemini 3 Pro Image,Google Gemini,image,1M tokens,,2,0.2,120,,,,
+gemini-3-pro-image,Gemini 3 Pro Image,Google Gemini,image,image,1k,,,,,,,0.1344
+gemini-3-pro-image,Gemini 3 Pro Image,Google Gemini,image,image,2k,,,,,,,0.1344
+gemini-3-pro-image,Gemini 3 Pro Image,Google Gemini,image,image,4k,,,,,,,0.24
+gemini-3.1-flash-image,Gemini 3.1 Flash Image,Google Gemini,image,1M tokens,,0.5,0.05,60,,,,
+gemini-3.1-flash-image,Gemini 3.1 Flash Image,Google Gemini,image,image,1k,,,,,,,0.0672
+gemini-3.1-flash-image,Gemini 3.1 Flash Image,Google Gemini,image,image,2k,,,,,,,0.0672
+gemini-3.1-flash-lite,Gemini 3.1 Flash Lite,Google Gemini,chat,1M tokens,,0.25,0.025,1.5,,,,
+gemini-3.1-flash-lite-image,Gemini 3.1 Flash Lite Image,Google Gemini,image,1M tokens,,0.25,0.025,30,,,,
+gemini-3.1-flash-lite-image,Gemini 3.1 Flash Lite Image,Google Gemini,image,image,1k,,,,,,,0.0336
+gemini-3.1-flash-lite-preview,Gemini 3.1 Flash Lite Preview,Google Gemini,chat,1M tokens,,0.25,0.025,1.5,,,,
+gemini-3.1-pro-preview,Gemini 3.1 Pro Preview,Google Gemini,chat,1M tokens,,2,0.2,12,200000,2,1.5,
+gemini-3.1-pro-preview-customtools,Gemini 3.1 Pro Preview (Custom Tools),Google Gemini,chat,1M tokens,,2,0.2,12,200000,2,1.5,
+gemini-3.5-flash,Gemini 3.5 Flash,Google Gemini,chat,1M tokens,,1.5,0.15,9,,,,
+gemini-3.5-flash-lite,Gemini 3.5 Flash Lite,Google Gemini,chat,1M tokens,,0.3,0.03,2.5,,,,
+gemini-3.6-flash,Gemini 3.6 Flash,Google Gemini,chat,1M tokens,,0.75,0.075,3.75,,,,
+gemini-3.8-flash,Gemini 3.8 Flash,Google Gemini,chat,1M tokens,,0.75,0.075,3.75,,,,
+gemini-4-argon,Gemini 4 Argon,Google Gemini,chat,1M tokens,,2,0.1,10,,,,
+gemini-nano-banana-2.1,Nano Banana 2.1,Google Gemini,image,1M tokens,,1.5,0.075,30,,,,
+gemini-nano-banana-2.1,Nano Banana 2.1,Google Gemini,image,image,1k,,,,,,,0.0336
+gemini-nano-banana-2.1,Nano Banana 2.1,Google Gemini,image,image,2k,,,,,,,0.0504
+gemini-nano-banana-2.1,Nano Banana 2.1,Google Gemini,image,image,4k,,,,,,,0.1134
+kling-avatar,Kling Avatar,Kuaishou Kling,video,second,avatar_1080p,,,,,,,0.11764706
+kling-avatar,Kling Avatar,Kuaishou Kling,video,second,avatar_720p,,,,,,,0.05882353
+kling-image-expand,Kling Outpainting,Kuaishou Kling,image,image,img_1k,,,,,,,0.02941176
+kling-image-o1,Kling Image O1,Kuaishou Kling,image,image,img_1k,,,,,,,0.02941176
+kling-image-o1,Kling Image O1,Kuaishou Kling,image,image,img_2k,,,,,,,0.02941176
+kling-image-o1,Kling Image O1,Kuaishou Kling,image,image,img_4k,,,,,,,0.05882353
+kling-image-v2-1,Kling Image 2.1 (Text-to-Image),Kuaishou Kling,image,image,img_1k,,,,,,,0.01470588
+kling-image-v2-1,Kling Image 2.1 (Text-to-Image),Kuaishou Kling,image,image,img_2k,,,,,,,0.01470588
+kling-image-v2-1-i2i,Kling Image 2.1 (Image-to-Image),Kuaishou Kling,image,image,img_1k,,,,,,,0.02941176
+kling-image-v2-1-i2i,Kling Image 2.1 (Image-to-Image),Kuaishou Kling,image,image,img_2k,,,,,,,0.02941176
+kling-image-v2-1-multi-ref,Kling Image 2.1 (Multi-Image Reference),Kuaishou Kling,image,image,img_1k,,,,,,,0.05882353
+kling-image-v2-1-multi-ref,Kling Image 2.1 (Multi-Image Reference),Kuaishou Kling,image,image,img_2k,,,,,,,0.07058824
+kling-image-v3,Kling Image 3.0,Kuaishou Kling,image,image,img_1k,,,,,,,0.02941176
+kling-image-v3,Kling Image 3.0,Kuaishou Kling,image,image,img_2k,,,,,,,0.02941176
+kling-image-v3-omni,Kling Image 3.0 Omni,Kuaishou Kling,image,image,img_1k,,,,,,,0.02941176
+kling-image-v3-omni,Kling Image 3.0 Omni,Kuaishou Kling,image,image,img_2k,,,,,,,0.02941176
+kling-image-v3-omni,Kling Image 3.0 Omni,Kuaishou Kling,image,image,img_4k,,,,,,,0.05882353
+kling-lip-sync,Kling Lip Sync,Kuaishou Kling,video,second,lip_sync,,,,,,,0.01470588
+kling-o1,Kling O1,Kuaishou Kling,video,second,1080p_silent_noref,,,,,,,0.11764706
+kling-o1,Kling O1,Kuaishou Kling,video,second,1080p_silent_ref,,,,,,,0.17647059
+kling-o1,Kling O1,Kuaishou Kling,video,second,2k_silent_noref,,,,,,,0.17647059
+kling-o1,Kling O1,Kuaishou Kling,video,second,2k_silent_ref,,,,,,,0.26470588
+kling-o1,Kling O1,Kuaishou Kling,video,second,4k_silent_noref,,,,,,,0.26470588
+kling-o1,Kling O1,Kuaishou Kling,video,second,4k_silent_ref,,,,,,,0.39705882
+kling-o1,Kling O1,Kuaishou Kling,video,second,720p_silent_noref,,,,,,,0.08823529
+kling-o1,Kling O1,Kuaishou Kling,video,second,720p_silent_ref,,,,,,,0.13235294
+kling-v1-6,Kling 1.6,Kuaishou Kling,video,second,1080p_silent_noref,,,,,,,0.10294118
+kling-v1-6,Kling 1.6,Kuaishou Kling,video,second,2k_silent_noref,,,,,,,0.14705882
+kling-v1-6,Kling 1.6,Kuaishou Kling,video,second,4k_silent_noref,,,,,,,0.22058824
+kling-v1-6,Kling 1.6,Kuaishou Kling,video,second,720p_silent_noref,,,,,,,0.05882353
+kling-v1-6,Kling 1.6,Kuaishou Kling,video,second,multi_elements_1080p,,,,,,,0.14705882
+kling-v1-6,Kling 1.6,Kuaishou Kling,video,second,multi_elements_2k,,,,,,,0.17647059
+kling-v1-6,Kling 1.6,Kuaishou Kling,video,second,multi_elements_4k,,,,,,,0.21176471
+kling-v1-6,Kling 1.6,Kuaishou Kling,video,second,multi_elements_720p,,,,,,,0.08823529
+kling-v2-0,Kling 2.0,Kuaishou Kling,video,second,1080p_silent_noref,,,,,,,0.10294118
+kling-v2-0,Kling 2.0,Kuaishou Kling,video,second,2k_silent_noref,,,,,,,0.14705882
+kling-v2-0,Kling 2.0,Kuaishou Kling,video,second,4k_silent_noref,,,,,,,0.22058824
+kling-v2-0,Kling 2.0,Kuaishou Kling,video,second,720p_silent_noref,,,,,,,0.05882353
+kling-v2-1,Kling 2.1,Kuaishou Kling,video,second,1080p_silent_noref,,,,,,,0.10294118
+kling-v2-1,Kling 2.1,Kuaishou Kling,video,second,2k_silent_noref,,,,,,,0.14705882
+kling-v2-1,Kling 2.1,Kuaishou Kling,video,second,4k_silent_noref,,,,,,,0.22058824
+kling-v2-1,Kling 2.1,Kuaishou Kling,video,second,720p_silent_noref,,,,,,,0.05882353
+kling-v2-5-turbo,Kling 2.5 Turbo,Kuaishou Kling,video,second,1080p_silent_noref,,,,,,,0.07352941
+kling-v2-5-turbo,Kling 2.5 Turbo,Kuaishou Kling,video,second,720p_silent_noref,,,,,,,0.04411765
+kling-v2-6,Kling 2.6,Kuaishou Kling,video,second,1080p_audio_noref,,,,,,,0.14705882
+kling-v2-6,Kling 2.6,Kuaishou Kling,video,second,1080p_silent_noref,,,,,,,0.07352941
+kling-v2-6,Kling 2.6,Kuaishou Kling,video,second,2k_audio_noref,,,,,,,0.22058824
+kling-v2-6,Kling 2.6,Kuaishou Kling,video,second,2k_silent_noref,,,,,,,0.11029412
+kling-v2-6,Kling 2.6,Kuaishou Kling,video,second,4k_audio_noref,,,,,,,0.33088235
+kling-v2-6,Kling 2.6,Kuaishou Kling,video,second,4k_silent_noref,,,,,,,0.16470588
+kling-v2-6,Kling 2.6,Kuaishou Kling,video,second,720p_silent_noref,,,,,,,0.04411765
+kling-v2-6,Kling 2.6,Kuaishou Kling,video,second,motion_control_1080p,,,,,,,0.11764706
+kling-v2-6,Kling 2.6,Kuaishou Kling,video,second,motion_control_2k,,,,,,,0.17647059
+kling-v2-6,Kling 2.6,Kuaishou Kling,video,second,motion_control_4k,,,,,,,0.26470588
+kling-v2-6,Kling 2.6,Kuaishou Kling,video,second,motion_control_720p,,,,,,,0.07352941
+kling-v2-6-motion-control,Kling 2.6 Motion Control,Kuaishou Kling,video,second,motion_control_1080p,,,,,,,0.11764706
+kling-v2-6-motion-control,Kling 2.6 Motion Control,Kuaishou Kling,video,second,motion_control_720p,,,,,,,0.07352941
+kling-v3,Kling 3.0,Kuaishou Kling,video,second,1080p_audio_noref,,,,,,,0.17647059
+kling-v3,Kling 3.0,Kuaishou Kling,video,second,1080p_silent_noref,,,,,,,0.11764706
+kling-v3,Kling 3.0,Kuaishou Kling,video,second,2k_audio_noref,,,,,,,0.22058824
+kling-v3,Kling 3.0,Kuaishou Kling,video,second,2k_silent_noref,,,,,,,0.14705882
+kling-v3,Kling 3.0,Kuaishou Kling,video,second,4k_audio_noref,,,,,,,0.44117647
+kling-v3,Kling 3.0,Kuaishou Kling,video,second,4k_silent_noref,,,,,,,0.44117647
+kling-v3,Kling 3.0,Kuaishou Kling,video,second,720p_audio_noref,,,,,,,0.13235294
+kling-v3,Kling 3.0,Kuaishou Kling,video,second,720p_silent_noref,,,,,,,0.08823529
+kling-v3,Kling 3.0,Kuaishou Kling,video,second,motion_control_1080p,,,,,,,0.17647059
+kling-v3,Kling 3.0,Kuaishou Kling,video,second,motion_control_2k,,,,,,,0.26470588
+kling-v3,Kling 3.0,Kuaishou Kling,video,second,motion_control_4k,,,,,,,0.39705882
+kling-v3,Kling 3.0,Kuaishou Kling,video,second,motion_control_720p,,,,,,,0.13235294
+kling-v3-motion-control,Kling 3.0 Motion Control,Kuaishou Kling,video,second,motion_control_1080p,,,,,,,0.17647059
+kling-v3-motion-control,Kling 3.0 Motion Control,Kuaishou Kling,video,second,motion_control_2k,,,,,,,0.26470588
+kling-v3-motion-control,Kling 3.0 Motion Control,Kuaishou Kling,video,second,motion_control_4k,,,,,,,0.39705882
+kling-v3-motion-control,Kling 3.0 Motion Control,Kuaishou Kling,video,second,motion_control_720p,,,,,,,0.13235294
+kling-v3-omni,Kling 3.0 Omni,Kuaishou Kling,video,second,1080p_audio_noref,,,,,,,0.14705882
+kling-v3-omni,Kling 3.0 Omni,Kuaishou Kling,video,second,1080p_silent_noref,,,,,,,0.11764706
+kling-v3-omni,Kling 3.0 Omni,Kuaishou Kling,video,second,1080p_silent_ref,,,,,,,0.17647059
+kling-v3-omni,Kling 3.0 Omni,Kuaishou Kling,video,second,2k_audio_noref,,,,,,,0.17647059
+kling-v3-omni,Kling 3.0 Omni,Kuaishou Kling,video,second,2k_silent_noref,,,,,,,0.14705882
+kling-v3-omni,Kling 3.0 Omni,Kuaishou Kling,video,second,2k_silent_ref,,,,,,,0.22058824
+kling-v3-omni,Kling 3.0 Omni,Kuaishou Kling,video,second,4k_audio_noref,,,,,,,0.44117647
+kling-v3-omni,Kling 3.0 Omni,Kuaishou Kling,video,second,4k_silent_noref,,,,,,,0.44117647
+kling-v3-omni,Kling 3.0 Omni,Kuaishou Kling,video,second,720p_audio_noref,,,,,,,0.11764706
+kling-v3-omni,Kling 3.0 Omni,Kuaishou Kling,video,second,720p_silent_noref,,,,,,,0.08823529
+kling-v3-omni,Kling 3.0 Omni,Kuaishou Kling,video,second,720p_silent_ref,,,,,,,0.13235294
+kling-v3-turbo,Kling 3.0 Turbo,Kuaishou Kling,video,second,1080p_voice_noref,,,,,,,0.14705882
+kling-v3-turbo,Kling 3.0 Turbo,Kuaishou Kling,video,second,2k_voice_noref,,,,,,,0.17647059
+kling-v3-turbo,Kling 3.0 Turbo,Kuaishou Kling,video,second,4k_voice_noref,,,,,,,0.21176471
+kling-v3-turbo,Kling 3.0 Turbo,Kuaishou Kling,video,second,720p_voice_noref,,,,,,,0.11764706
+kling-v4,Kling 4.0,Kuaishou Kling,video,second,1080p_audio_noref,,,,,,,0.22058824
+kling-v4,Kling 4.0,Kuaishou Kling,video,second,1080p_silent_noref,,,,,,,0.22058824
+kling-v4,Kling 4.0,Kuaishou Kling,video,second,720p_audio_noref,,,,,,,0.14705882
+kling-v4,Kling 4.0,Kuaishou Kling,video,second,720p_silent_noref,,,,,,,0.14705882
+midjourney-v8-2,Midjourney v8.2,Midjourney,image,image,img_1k,,,,,,,0.00666667
+midjourney-v8-2,Midjourney v8.2,Midjourney,image,image,img_2k,,,,,,,0.01083333
+MiniMax-H3,MiniMax Hailuo H3,MiniMax,video,second,2k,,,,,,,0.13
+MiniMax-H3,MiniMax Hailuo H3,MiniMax,video,second,768p,,,,,,,0.08
+MiniMax-H3-Max,MiniMax Hailuo H3 Max,MiniMax,video,second,480p,,,,,,,0.05
+MiniMax-H3-Max,MiniMax Hailuo H3 Max,MiniMax,video,second,768p,,,,,,,0.08
+MiniMax-H3-SelfHosted,MiniMax Hailuo H3 Self-hosted,MiniMax,video,second,1080p,,,,,,,0.07352941
+MiniMax-H3-SelfHosted,MiniMax Hailuo H3 Self-hosted,MiniMax,video,second,2k,,,,,,,0.09191176
+MiniMax-H3-SelfHosted,MiniMax Hailuo H3 Self-hosted,MiniMax,video,second,480p,,,,,,,0.04367647
+MiniMax-H3-SelfHosted,MiniMax Hailuo H3 Self-hosted,MiniMax,video,second,4k,,,,,,,0.11029412
+MiniMax-H3-SelfHosted,MiniMax Hailuo H3 Self-hosted,MiniMax,video,second,768p,,,,,,,0.05514706
+MiniMax-H3-SelfHosted-Lite,MiniMax Hailuo H3 Self-hosted Lite,MiniMax,video,second,2k,,,,,,,0.13
+MiniMax-H3-SelfHosted-Lite,MiniMax Hailuo H3 Self-hosted Lite,MiniMax,video,second,480p,,,,,,,0.05
+MiniMax-H3-SelfHosted-Lite,MiniMax Hailuo H3 Self-hosted Lite,MiniMax,video,second,768p,,,,,,,0.08
+speech-2.8-hd,MiniMax Speech 2.8 HD,MiniMax,audio,1M billed characters,,100,,,,,,
+speech-2.8-turbo,MiniMax Speech 2.8 Turbo,MiniMax,audio,1M billed characters,,60,,,,,,
+codex-auto-review,Codex Auto Review (GPT-5.3-Codex),OpenAI GPT / Codex,chat,1M tokens,,1.75,0.175,14,,,,
+deepseek-v4-flash-202605,DeepSeek V4 Flash,DeepSeek,chat,1M tokens,,0.44,0.014,1.32,,,,
+deepseek-v4-flash-us,DeepSeek V4 Flash (US),DeepSeek,chat,1M tokens,,0.424,0.042,1.272,,,,
+deepseek-v4-pro-202606,DeepSeek V4 Pro,DeepSeek,chat,1M tokens,,1.32,0.044,3.96,,,,
+deepseek-v4-pro-us,DeepSeek V4 Pro (US),DeepSeek,chat,1M tokens,,1.272,0.127,3.816,,,,
+deepseek-v4.1-flash,DeepSeek V4.1 Flash,DeepSeek,chat,1M tokens,,0.29411764705882354,0.0058823529411764705,1.1764705882352942,,,,
+deepseek-v4.1-flash-1017,DeepSeek V4.1 Flash 1017,DeepSeek,chat,1M tokens,,0.29411764705882354,0.0058823529411764705,1.1764705882352942,,,,
+deepseek-v4.1-flash-1017-sg,DeepSeek V4.1 Flash 1017 (SG),DeepSeek,chat,1M tokens,,0.29411764705882354,0.0058823529411764705,1.1764705882352942,,,,
+deepseek-v4.1-flash-us,DeepSeek V4.1 Flash (US),DeepSeek,chat,1M tokens,,0.283,0.028,1.131,,,,
+doubao-seed-2-0-mini-260428,Doubao Seed 2.0 Mini,Other,chat,1M tokens,,0.029412,0.005882,0.294118,32768,2,2,
+doubao-seed-2-1-lite-260915,Doubao Seed 2.1 Lite,Other,chat,1M tokens,,0.117647,0.023529,0.397059,,,,
+doubao-seed-2-1-pro-260628,Doubao Seed 2.1 Pro,Other,chat,1M tokens,,0.882353,0.176471,4.411765,,,,
+doubao-seed-2-1-pro-260915,Doubao Seed 2.1 Pro (260915),Other,chat,1M tokens,,0.882353,0.176471,4.411765,,,,
+doubao-seed-2-1-turbo-260628,Doubao Seed 2.1 Turbo,Other,chat,1M tokens,,0.441176,0.088235,2.205882,,,,
+doubao-seed-character-260628,Doubao Seed Character,Other,chat,1M tokens,,0.117647,0.023529,0.294118,32768,1.5,3,
+doubao-seed-evolving,Doubao Seed Evolving,Other,chat,1M tokens,,0.882353,0.176471,4.411765,,,,
+gemini-2.5-flash-image,Gemini 2.5 Flash Image,Google Gemini,image,1M tokens,,0.3,0.03,30,,,,
+gemini-2.5-flash-image,Gemini 2.5 Flash Image,Google Gemini,image,image,1k,,,,,,,0.0387
+gemini-3.1-flash-image-preview,Gemini 3.1 Flash Image Preview,Google Gemini,image,1M tokens,,0.5,0.05,60,,,,
+gemini-3.1-flash-image-preview,Gemini 3.1 Flash Image Preview,Google Gemini,image,image,1k,,,,,,,0.0672
+gemini-3.1-flash-image-preview,Gemini 3.1 Flash Image Preview,Google Gemini,image,image,2k,,,,,,,0.0672
+glm-5.2,GLM-5.2,Zhipu GLM,chat,1M tokens,,1.4,0.26,4.4,,,,
+glm-5.2-us,GLM-5.2 (US),Zhipu GLM,chat,1M tokens,,1.1,0.275,3.851,,,,
+glm-5.3,GLM-5.3,Zhipu GLM,chat,1M tokens,,1.4,0.26,4.4,,,,
+glm-5.3-flash,GLM-5.3-Flash,Zhipu GLM,chat,1M tokens,,0.15,0.03,0.5,,,,
+glm-5.3-us,GLM-5.3 (US),Zhipu GLM,chat,1M tokens,,1.131,0.283,3.957,,,,
+gpt-4.1,GPT 4.1,OpenAI GPT / Codex,chat,1M tokens,,2,0.5,8,272000,1,1,
+gpt-4.1-mini,GPT 4.1 Mini,OpenAI GPT / Codex,chat,1M tokens,,0.4,0.1,1.6,272000,1,1,
+gpt-4.1-nano,GPT 4.1 Nano,OpenAI GPT / Codex,chat,1M tokens,,0.1,0.025,0.4,272000,1,1,
+gpt-4o,GPT 4o,OpenAI GPT / Codex,chat,1M tokens,,2.5,1.25,10,272000,1,1,
+gpt-4o-mini,GPT 4o Mini,OpenAI GPT / Codex,chat,1M tokens,,0.15,0.075,0.6,272000,1,1,
+gpt-5,GPT 5,OpenAI GPT / Codex,chat,1M tokens,,1.25,0.125,10,272000,1,1,
+gpt-5-mini,GPT 5 Mini,OpenAI GPT / Codex,chat,1M tokens,,0.25,0.025,2,272000,1,1,
+gpt-5-nano,GPT 5 Nano,OpenAI GPT / Codex,chat,1M tokens,,0.05,0.005,0.4,272000,1,1,
+gpt-5.1,GPT 5.1,OpenAI GPT / Codex,chat,1M tokens,,1.25,0.125,10,272000,1,1,
+gpt-5.2,GPT 5.2,OpenAI GPT / Codex,chat,1M tokens,,1.75,0.175,14,272000,1,1,
+gpt-5.3-codex-spark,GPT 5.3 Codex Spark,OpenAI GPT / Codex,chat,1M tokens,,1.75,0.175,14,,,,
+gpt-5.4,GPT 5.4,OpenAI GPT / Codex,chat,1M tokens,,2.5,0.25,15,272000,2,1.5,
+gpt-5.4-mini,GPT 5.4 Mini,OpenAI GPT / Codex,chat,1M tokens,,0.75,0.075,4.5,,,,
+gpt-5.4-nano,GPT 5.4 Nano,OpenAI GPT / Codex,chat,1M tokens,,0.2,0.02,1.25,272000,1,1,
+gpt-5.4-pro,GPT 5.4 Pro,OpenAI GPT / Codex,chat,1M tokens,,30,30,180,272000,2,1.5,
+gpt-5.5,GPT 5.5,OpenAI GPT / Codex,chat,1M tokens,,5,0.5,30,,,,
+gpt-5.6-luna,GPT 5.6 Luna,OpenAI GPT / Codex,chat,1M tokens,,0.2,0.02,1.2,272000,2,1.5,
+gpt-5.6-sol,GPT 5.6 Sol,OpenAI GPT / Codex,chat,1M tokens,,4,0.4,20,272000,2,1.5,
+gpt-5.6-terra,GPT 5.6 Terra,OpenAI GPT / Codex,chat,1M tokens,,2,0.2,12,272000,2,1.5,
+gpt-6-astra,GPT-6 Astra,OpenAI GPT / Codex,chat,1M tokens,,10,1,50,272000,2,1.5,
+gpt-6-luna,GPT-6 Luna,OpenAI GPT / Codex,chat,1M tokens,,0.1,0.01,0.5,272000,2,1.5,
+gpt-6-sol,GPT-6 Sol,OpenAI GPT / Codex,chat,1M tokens,,2,0.2,10,272000,2,1.5,
+gpt-6.1-sol,GPT-6.1 Sol,OpenAI GPT / Codex,chat,1M tokens,,2,0.1,10,272000,2,1.5,
+gpt-6.1-terra,GPT-6.1 Terra,OpenAI GPT / Codex,chat,1M tokens,,1,0.05,5,272000,2,1.5,
+gpt-image-2,GPT Image 2,OpenAI Image,image,1M tokens,,5,0.5,30,,,,
+gpt-image-2.5-flare,GPT Image 2.5 Flare,OpenAI Image,image,1M tokens,,5,1.25,30,,,,
+gpt-image-2.5-sunburst,GPT Image 2.5 Sunburst,OpenAI Image,image,1M tokens,,5,1.25,30,,,,
+gpt-image-2.6-flare,GPT Image 2.6 Flare,OpenAI Image,image,1M tokens,,5,1.25,30,,,,
+gpt-image-2.6-sunburst,GPT Image 2.6 Sunburst,OpenAI Image,image,1M tokens,,5,1.25,30,,,,
+grok-4.3,Grok 4.3,xAI Grok,chat,1M tokens,,1.25,0.2,2.5,200000,2,2,
+grok-4.5,Grok 4.5,xAI Grok,chat,1M tokens,,2,0.3,6,200000,2,2,
+grok-4.6,Grok 4.6,xAI Grok,chat,1M tokens,,2,0.5,6,200000,2,2,
+grok-4.7,Grok 4.7,xAI Grok,chat,1M tokens,,2,0.5,6,200000,2,2,
+grok-4.20-0309-reasoning,Grok 4.20 Reasoning,xAI Grok,chat,1M tokens,,1.25,0.2,2.5,200000,2,2,
+grok-4.20-multi-agent-0309,Grok 4.20 Multi-Agent,xAI Grok,chat,1M tokens,,1.25,0.2,2.5,200000,2,2,
+grok-imagine-image,Grok Imagine Image,xAI Grok,image,1M tokens,,5,0.5,30,,,,
+grok-imagine-image,Grok Imagine Image,xAI Grok,image,image,1k,,,,,,,0.02
+grok-imagine-image-2.0,Grok Imagine Image 2.0,xAI Grok,image,1M tokens,,5,0.5,30,,,,
+grok-imagine-image-2.0,Grok Imagine Image 2.0,xAI Grok,image,image,1k,,,,,,,0.04
+grok-imagine-image-2.0,Grok Imagine Image 2.0,xAI Grok,image,image,2k,,,,,,,0.06
+grok-imagine-image-quality,Grok Imagine Image Quality,xAI Grok,image,1M tokens,,5,0.5,30,,,,
+grok-imagine-image-quality,Grok Imagine Image Quality,xAI Grok,image,image,1k,,,,,,,0.05
+grok-imagine-image-quality,Grok Imagine Image Quality,xAI Grok,image,image,2k,,,,,,,0.07
+hy4,Hy4,Tencent Hunyuan,chat,1M tokens,,0.8823529411764706,0.04411764705882353,2.6470588235294117,,,,
+hy4-preview,Hy4 Preview,Tencent Hunyuan,chat,1M tokens,,0.8823529411764706,0.04411764705882353,2.6470588235294117,,,,
+kimi-k3,Kimi K3,Other,chat,1M tokens,,3,0.3,15,,,,
+qwen3.7-flash,Qwen3.7 Flash,Alibaba Qwen,chat,1M tokens,,0.029411764705882356,0.0058823529411764705,0.11764705882352942,32768,3,3,
+qwen3.7-max,Qwen3.7 Max,Alibaba Qwen,chat,1M tokens,,1.7647058823529411,0.35294117647058826,5.294117647058823,,,,
+qwen3.7-plus,Qwen3.7 Plus,Alibaba Qwen,chat,1M tokens,,0.29411764705882354,0.05882352941176471,1.1764705882352942,262144,3,3,
+qwen3.8-flash,Qwen3.8 Flash,Alibaba Qwen,chat,1M tokens,,0.14705882352941177,0.014705882352941178,0.4411764705882353,,,,
+qwen3.8-max,Qwen3.8 Max,Alibaba Qwen,chat,1M tokens,,1.7647058823529411,0.22058823529411764,5.294117647058823,,,,
+doubao-seedance-2-0-260128-a,Seedance 2.0 (Doubao 260128-a),ByteDance Seedance,video,1M video tokens,1080p_no_ref,,,,,,,7.5
+doubao-seedance-2-0-260128-a,Seedance 2.0 (Doubao 260128-a),ByteDance Seedance,video,1M video tokens,1080p_with_ref,,,,,,,4.559
+doubao-seedance-2-0-260128-a,Seedance 2.0 (Doubao 260128-a),ByteDance Seedance,video,1M video tokens,480p_no_ref,,,,,,,6.765
+doubao-seedance-2-0-260128-a,Seedance 2.0 (Doubao 260128-a),ByteDance Seedance,video,1M video tokens,480p_with_ref,,,,,,,4.118
+doubao-seedance-2-0-260128-a,Seedance 2.0 (Doubao 260128-a),ByteDance Seedance,video,1M video tokens,720p_no_ref,,,,,,,6.765
+doubao-seedance-2-0-260128-a,Seedance 2.0 (Doubao 260128-a),ByteDance Seedance,video,1M video tokens,720p_with_ref,,,,,,,4.118
+doubao-seedance-2-0-fast-260128-a,Seedance 2.0 Fast (Doubao 260128-a),ByteDance Seedance,video,1M video tokens,480p_no_ref,,,,,,,5.441
+doubao-seedance-2-0-fast-260128-a,Seedance 2.0 Fast (Doubao 260128-a),ByteDance Seedance,video,1M video tokens,480p_with_ref,,,,,,,3.235
+doubao-seedance-2-0-fast-260128-a,Seedance 2.0 Fast (Doubao 260128-a),ByteDance Seedance,video,1M video tokens,720p_no_ref,,,,,,,5.441
+doubao-seedance-2-0-fast-260128-a,Seedance 2.0 Fast (Doubao 260128-a),ByteDance Seedance,video,1M video tokens,720p_with_ref,,,,,,,3.235
+doubao-seedance-2-0-mini-260615-a,Seedance 2.0 Mini (Doubao 260615-a),ByteDance Seedance,video,1M video tokens,480p_no_ref,,,,,,,3.382
+doubao-seedance-2-0-mini-260615-a,Seedance 2.0 Mini (Doubao 260615-a),ByteDance Seedance,video,1M video tokens,480p_with_ref,,,,,,,2.059
+doubao-seedance-2-0-mini-260615-a,Seedance 2.0 Mini (Doubao 260615-a),ByteDance Seedance,video,1M video tokens,720p_no_ref,,,,,,,3.382
+doubao-seedance-2-0-mini-260615-a,Seedance 2.0 Mini (Doubao 260615-a),ByteDance Seedance,video,1M video tokens,720p_with_ref,,,,,,,2.059
+doubao-seedance-2-5-260628-a,Seedance 2.5 (Doubao 260628-a),ByteDance Seedance,video,1M video tokens,1080p_no_ref,,,,,,,11.324
+doubao-seedance-2-5-260628-a,Seedance 2.5 (Doubao 260628-a),ByteDance Seedance,video,1M video tokens,1080p_with_ref,,,,,,,6.765
+doubao-seedance-2-5-260628-a,Seedance 2.5 (Doubao 260628-a),ByteDance Seedance,video,1M video tokens,480p_no_ref,,,,,,,10.294
+doubao-seedance-2-5-260628-a,Seedance 2.5 (Doubao 260628-a),ByteDance Seedance,video,1M video tokens,480p_with_ref,,,,,,,6.176
+doubao-seedance-2-5-260628-a,Seedance 2.5 (Doubao 260628-a),ByteDance Seedance,video,1M video tokens,720p_no_ref,,,,,,,10.294
+doubao-seedance-2-5-260628-a,Seedance 2.5 (Doubao 260628-a),ByteDance Seedance,video,1M video tokens,720p_with_ref,,,,,,,6.176
+dreamina-seedance-2-0-260128,Seedance 2.0 (260128),ByteDance Seedance,video,1M video tokens,1080p_no_ref,,,,,,,7.7
+dreamina-seedance-2-0-260128,Seedance 2.0 (260128),ByteDance Seedance,video,1M video tokens,1080p_with_ref,,,,,,,4.7
+dreamina-seedance-2-0-260128,Seedance 2.0 (260128),ByteDance Seedance,video,1M video tokens,480p_no_ref,,,,,,,7
+dreamina-seedance-2-0-260128,Seedance 2.0 (260128),ByteDance Seedance,video,1M video tokens,480p_with_ref,,,,,,,4.3
+dreamina-seedance-2-0-260128,Seedance 2.0 (260128),ByteDance Seedance,video,1M video tokens,4k_no_ref,,,,,,,4
+dreamina-seedance-2-0-260128,Seedance 2.0 (260128),ByteDance Seedance,video,1M video tokens,4k_with_ref,,,,,,,2.4
+dreamina-seedance-2-0-260128,Seedance 2.0 (260128),ByteDance Seedance,video,1M video tokens,720p_no_ref,,,,,,,7
+dreamina-seedance-2-0-260128,Seedance 2.0 (260128),ByteDance Seedance,video,1M video tokens,720p_with_ref,,,,,,,4.3
+dreamina-seedance-2-0-fast-260128,Seedance 2.0 Fast (260128),ByteDance Seedance,video,1M video tokens,480p_no_ref,,,,,,,5.6
+dreamina-seedance-2-0-fast-260128,Seedance 2.0 Fast (260128),ByteDance Seedance,video,1M video tokens,480p_with_ref,,,,,,,3.3
+dreamina-seedance-2-0-fast-260128,Seedance 2.0 Fast (260128),ByteDance Seedance,video,1M video tokens,720p_no_ref,,,,,,,5.6
+dreamina-seedance-2-0-fast-260128,Seedance 2.0 Fast (260128),ByteDance Seedance,video,1M video tokens,720p_with_ref,,,,,,,3.3
+dreamina-seedance-2-0-mini-260615,Seedance 2.0 Mini (260615),ByteDance Seedance,video,1M video tokens,480p_no_ref,,,,,,,3.5
+dreamina-seedance-2-0-mini-260615,Seedance 2.0 Mini (260615),ByteDance Seedance,video,1M video tokens,480p_with_ref,,,,,,,2.1
+dreamina-seedance-2-0-mini-260615,Seedance 2.0 Mini (260615),ByteDance Seedance,video,1M video tokens,720p_no_ref,,,,,,,3.5
+dreamina-seedance-2-0-mini-260615,Seedance 2.0 Mini (260615),ByteDance Seedance,video,1M video tokens,720p_with_ref,,,,,,,2.1
+dreamina-seedance-2-5-260628,Seedance 2.5 (Overseas),ByteDance Seedance,video,1M video tokens,1080p_no_ref,,,,,,,11.7
+dreamina-seedance-2-5-260628,Seedance 2.5 (Overseas),ByteDance Seedance,video,1M video tokens,1080p_with_ref,,,,,,,7
+dreamina-seedance-2-5-260628,Seedance 2.5 (Overseas),ByteDance Seedance,video,1M video tokens,480p_no_ref,,,,,,,10.7
+dreamina-seedance-2-5-260628,Seedance 2.5 (Overseas),ByteDance Seedance,video,1M video tokens,480p_with_ref,,,,,,,6.4
+dreamina-seedance-2-5-260628,Seedance 2.5 (Overseas),ByteDance Seedance,video,1M video tokens,720p_no_ref,,,,,,,10.7
+dreamina-seedance-2-5-260628,Seedance 2.5 (Overseas),ByteDance Seedance,video,1M video tokens,720p_with_ref,,,,,,,6.4
+grok-imagine-video-1.5,Grok Imagine Video 1.5,xAI Grok,video,second,1080p_per_second,,,,,,,0.25
+grok-imagine-video-1.5,Grok Imagine Video 1.5,xAI Grok,video,second,480p_per_second,,,,,,,0.08
+grok-imagine-video-1.5,Grok Imagine Video 1.5,xAI Grok,video,second,720p_per_second,,,,,,,0.14
+grok-imagine-video-1.5,Grok Imagine Video 1.5,xAI Grok,video,second,reference_image,,,,,,,0.01
+seedream-4-5,Seedream 4.5,ByteDance Seedream,image,image,gt_261w,,,,,,,0.04
+seedream-4-5,Seedream 4.5,ByteDance Seedream,image,image,le_261w,,,,,,,0.04
+seedream-5-0-lite,Seedream 5.0 Lite,ByteDance Seedream,image,image,gt_261w,,,,,,,0.035
+seedream-5-0-lite,Seedream 5.0 Lite,ByteDance Seedream,image,image,le_261w,,,,,,,0.035
+seedream-5-0-pro,Seedream 5.0 Pro,ByteDance Seedream,image,image,gt_261w,,,,,,,0.09
+seedream-5-0-pro,Seedream 5.0 Pro,ByteDance Seedream,image,image,input_reference,,,,,,,0.003
+seedream-5-0-pro,Seedream 5.0 Pro,ByteDance Seedream,image,image,layer_gt_261w,,,,,,,0.045
+seedream-5-0-pro,Seedream 5.0 Pro,ByteDance Seedream,image,image,layer_le_261w,,,,,,,0.0225
+seedream-5-0-pro,Seedream 5.0 Pro,ByteDance Seedream,image,image,le_261w,,,,,,,0.045

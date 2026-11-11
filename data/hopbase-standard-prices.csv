@@ -1,0 +1,14 @@
+id,key_group,input,cached_input,output,official_input,official_cached_input,official_output,next_price_from,next_input,next_cached_input,next_output,notes
+claude-opus-5-5,Claude Official API [All Models] [Stable],2.44,0.2,12.2,4,0.2,20,,,,,
+claude-sonnet-5-5,Claude Official API [All Models] [Stable],1.22,0.1,6.1,2,0.1,10,,,,,
+gpt-6.1-sol,GPT Official Direct (Azure),1.3,0.065,6.5,2,0.1,10,,,,,"Base tier, input up to 272K; longer requests bill at the long-context tier."
+gpt-5.6-sol,GPT Official Direct (Azure),2.6,0.26,13,4,0.4,20,,,,,"Base tier, input up to 272K; longer requests bill at the long-context tier."
+gemini-4-argon,Gemini Official Direct (Enterprise),1.5,0.075,7.5,2,0.1,10,2026-12-01,3,0.15,15,Follows the official introductory price (through 2026-11-30); moves with the official price when it doubles.
+gemini-3.8-flash,Gemini Value (AI Studio / Vertex),0.342,0.0342,1.7096,0.75,0.075,3.75,,,,,
+gemini-3.1-pro-preview,Gemini Value (AI Studio / Vertex),0.9118,0.0912,5.4706,2,0.2,12,,,,,"Base tier, input up to 200K; longer requests bill at the long-context tier."
+deepseek-v4.1-flash-1017,DeepSeek,0.1765,0.0059,0.7059,0.29411764705882354,0.0058823529411764705,1.1764705882352942,,,,,"Peak rate; off-peak hours bill at half, on the official schedule."
+deepseek-v4.1-flash-1017-sg,DeepSeek Singapore Data Center,0.1765,0.0036,0.7059,0.29411764705882354,0.0058823529411764705,1.1764705882352942,,,,,"Peak rate; off-peak hours bill at half, on the official schedule."
+deepseek-v4-pro-202606,DeepSeek,0.726,0.0242,2.178,1.32,0.044,3.96,,,,,"Single all-day rate, no peak / off-peak split."
+grok-4.7,Grok Suite,1.2,0.3,3.6,2,0.5,6,,,,,"Base tier, input up to 200K; longer requests bill at the long-context tier."
+kimi-k3,Kimi K3 Cloud,1.95,0.195,9.75,3,0.3,15,,,,,
+glm-5.3,GLM Official API,1.19,0.221,3.74,1.4,0.26,4.4,,,,,
